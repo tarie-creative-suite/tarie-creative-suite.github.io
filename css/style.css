@@ -1,0 +1,276 @@
+@font-face {
+    font-family: BurstMyBubblePro;
+    src: url('font/BurstMyBubble.ttf');
+}
+
+
+
+body{
+    font-family: 'BurstMyBubblePro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    
+}
+
+a{
+    color: black;
+}
+
+.black{
+    background-color: black;
+}
+
+.lightblue{
+    background-color:lightblue;
+}
+
+.darkblue{
+    background-color:darkviolet;
+}
+
+.darkturqoise{
+    background-color: darkturquoise;
+}
+
+.darkred{
+    background-color: darkred;
+}
+
+.tinggi-header{
+    height: 100px;
+}
+
+.tinggi-footer{
+    height: 100px;
+}
+
+.tinggi-content0{
+    height: 1050px;
+    align-content: center;
+}
+
+.tinggi-content{
+    height: 3000px;
+    align-content: center;
+}
+
+.tinggi-content1{
+    height: 200px;
+    align-content: center;
+    font-size: 30px;
+}
+
+.tinggi-content2{
+    height: 100px;
+    align-content: center;
+    font-size: 30px;
+}
+
+.tinggi-content3{
+    height: 300px;
+    align-content: center;
+    font-size: 30px;
+}
+
+.brown{
+    background-color:darkcyan;
+}
+
+.lightbrown{
+    background-color:cyan;
+}
+
+.lightpink{
+    background-color:lightpink;
+}
+
+.pink{
+    background-color:deeppink;
+}
+
+.deeppink{
+    background-color: deeppink;
+}
+
+.background{
+    background-image: url(../images/Beautiful-Pink-Watercolor-Background.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.background1{
+    background-image: url(../images/2136-blue-and-yellow-watercolor-background.jpg);
+    background-size: cover;
+}
+
+p.capitalize {
+    text-transform:capitalize;
+}
+
+.t{
+    height: 10px;
+    align-content: center;
+    font-size: 30px;
+}
+
+.background2{
+    background-image: url(../images/grass1.png);
+    background-repeat:repeat-x;
+    background-size:contain;
+    padding-top: 50px;        
+}
+
+.isi-content {
+    align-items: center;
+    padding-top: 40px;
+    align-content: center;
+    center center;
+    text-align: center;
+}
+
+.isi-content3 {
+    align-items: center;  
+    padding-top: 7px;
+    padding-bottom: 100px;
+    align-content: center;
+    center center;
+    text-align: center;
+}
+
+
+.isi-content2 {
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 20px;
+    align-content: center;
+    center center;
+    text-align: center;
+    height: 50px;
+}
+
+p{
+    font-size: 15px;
+    font-family:cursive;
+}
+
+.align-footer{
+    background-color: white;
+    text-align: center;
+    font-size: 25px;
+    text-decoration-color: darkred;
+    padding-top: 15px;
+}
+
+.align-header{
+    text-align: center;
+    font-family: 'BurstMyBubblePro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color:darkred;
+    font-weight: 200px;
+    padding-top: 15px;
+    center center;
+}
+
+.align-header1{
+    text-align: center;
+    font-family: 'BurstMyBubblePro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color:black;
+    font-weight: 300px;
+    padding-top: 15px;
+    center center;
+    font-size: 30px;
+    font-display: block;
+}
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
